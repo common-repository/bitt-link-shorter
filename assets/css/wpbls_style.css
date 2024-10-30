@@ -1,0 +1,80 @@
+input[name=wpbls_bitt_link_btn],
+input[name=wpbls_bluk_bitt_link_btn],
+input[name=bitt_link_copy],
+input[name=wpbls_bitt_copy_link_btn],
+input[name=wpbls_bitt_copy_link_p_btn]
+{
+    font-size: 11px;
+    background: #f7f7f7;
+    border-color: #ccc;
+    border-width: 1px;
+    border-radius: 3px;
+    border-style: solid;
+    box-sizing: border-box;
+    box-shadow: 0 1px 0 #ccc;
+    cursor: pointer;
+    display: inline-block;
+    height: 24px;
+    margin: 0;
+    margin-top: 3px;
+    line-height: 22px;
+    outline: none;
+    padding: 0 8px 1px;
+    vertical-align: top;
+    text-decoration: none;
+    white-space: nowrap;
+    -webkit-appearance: none;
+}
+
+input[name=wpbls_bitt_copy_link_btn],
+input[name=wpbls_bitt_copy_link_p_btn]
+{
+    display: none;
+}
+
+input[name=wpbls_genrate_bitt_link_shorter]
+{
+    margin: 5px 0 10px 0;
+    width: 100%;
+    display: none;
+}
+
+.bitt-link-shorter-dashboar
+{
+    width: 98%;
+    float: left;
+    margin: 1% 0 0 0;
+    overflow-x: auto;
+}
+
+.bitt-link-shorter-dashboar textarea
+{
+    width: 100%;
+    float: left;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.bitt-link-shorter-dashboar label
+{
+    float: left;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 1% 0;
+}
+
+.bitt-link-shorter-dashboar .wpbls-error-notice
+{
+    margin: 0;
+    display: none;
+}
+
+#wpbls_bluk_datatable td input[type=text]
+{
+    background-color: transparent;
+    border: none;
+    box-sizing: unset;
+    outline: none;
+    box-shadow: none;
+}
